@@ -68,8 +68,8 @@ nav{
 .lang{
     position:fixed;
     padding: 10px;
-    left: -100%;
-    top: 70px;
+    left: 301px;
+    top: -100px;
     gap: 0;
     flex-direction: column;
     width: 100%;
@@ -87,7 +87,7 @@ nav{
     background-color: #fff;
 }
 .lang.active{
-    left: 0;
+    top: 70px;
 }
 .banner{
     width: 100%;
