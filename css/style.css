@@ -135,6 +135,7 @@ img#a {
 }
 .text h2{
     font-size: 3.5em;
+    font-style: italic;
 }
 .wool{
     position: absolute;
@@ -145,6 +146,7 @@ img#a {
 }
 .wool h2{
     font-size: 3.5em;
+    font-style: italic;
 }
 .About img{
     position: absolute;
