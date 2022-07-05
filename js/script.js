@@ -12,3 +12,11 @@
             ab.style.opacity = value * 4 + "px";
         })
 }
+{
+    const lang = document.querySelector(".lang");
+    const hamburger = document.querySelector(".hamburger");
+
+    hamburger.addEventListener("click", () =>{
+        lang.classList.toggle("active");
+    })
+}
