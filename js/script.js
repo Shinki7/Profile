@@ -8,7 +8,9 @@
             var value = window.scrollY;
             stars.style.left = value * 0.4 + "px";
             moon.style.top = value * 0.5 + "px";
-            met.style.top = value * 1 + "px";
+            met.style.top = value * 0.3 + "px";
+            met.style.right = value * 0.8 + "px";
+            
         })
 }
 {
